@@ -189,7 +189,8 @@ img {
   padding-bottom: 200px;
 
   text-align: center;
-  background-color: #2f303a;
+  background-size: 1600px 600px;
+  /*background-color: #2f303a;*/
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -237,8 +238,8 @@ img {
 
 .benefits-icon-cont {
   display: flex;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  width: 270px;
+  height: 120px;
   margin-bottom: 30px;
   align-items: center;
   justify-content: center;
@@ -542,13 +543,13 @@ border-radius: 4px;
   margin-right: 0;
 }
 
-.work-list-item-link:hover .our-works-title,
+/*.work-list-item-link:hover .our-works-title,
 .work-list-item-link:hover .our-works-subtitle,
 .work-list-item-link:focus .our-works-title,
 .work-list-item-link:focus .our-works-subtitle
 {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+}*/
 
 .work-list-item-link:hover, .work-list-item-link:focus
 {
