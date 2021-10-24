@@ -432,6 +432,7 @@ img {
 
 .footer-cont {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-left {
@@ -490,10 +491,6 @@ img {
 
 .footer-s-l-link .s-l-list-item-icon {
   fill: var(--primary-title-color);
-}
-
-.footer-right {
-  margin-top: 12px;
 }
 
 /* --------------portfolio css-------------- */
